@@ -1,10 +1,12 @@
 [[source]]
-url = "https://pypi.tuna.tsinghua.edu.cn/simple/"
+url = "https://pypi.douban.com/simple/"
 verify_ssl = true
 name = "pypi"
 
 [packages]
 django = "*"
+djangorestframework = "*"
+django-filter = "*"
 
 [dev-packages]
 
