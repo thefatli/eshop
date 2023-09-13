@@ -28,6 +28,7 @@ class Collection(models.Model):
 class Product(models.Model):
     title = models.CharField(max_length=255)
     description = models.TextField(null=True, blank=True)
+    slug = models.SlugField()   # 在Admin中自动填充
     unit_price = models.DecimalField(
         max_digits=6,
         decimal_places=2,
@@ -108,7 +109,7 @@ class Order(models.Model):
     payment_status = models.CharField(
         max_length=1, choices=PAYMENT_STATUS_CHOICES, default=PAYMENT_STATUS_PENDING
     )
-    Customer = models.ForeignKey(Customer, on_delete=models.PROTECT)
+    customer = models.ForeignKey(Customer, on_delete=models.PROTECT)
 
     class Meta:
         permissions = [

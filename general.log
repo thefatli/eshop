@@ -1,0 +1,834 @@
+Watching for file changes with StatReloader
+/home/thefatlee/lee/projects/eshop/eshop/settings.py changed, reloading.
+Watching for file changes with StatReloader
+/home/thefatlee/lee/projects/eshop/eshop/settings.py changed, reloading.
+Watching for file changes with StatReloader
+/home/thefatlee/lee/projects/eshop/eshop/settings.py changed, reloading.
+Watching for file changes with StatReloader
+/home/thefatlee/lee/projects/eshop/eshop/settings.py changed, reloading.
+Watching for file changes with StatReloader
+/home/thefatlee/lee/projects/eshop/eshop/settings.py changed, reloading.
+Watching for file changes with StatReloader
+/home/thefatlee/lee/projects/eshop/eshop/settings.py changed, reloading.
+Watching for file changes with StatReloader
+/home/thefatlee/lee/projects/eshop/eshop/settings.py changed, reloading.
+Watching for file changes with StatReloader
+/home/thefatlee/lee/projects/eshop/eshop/settings.py changed, reloading.
+Watching for file changes with StatReloader
+/home/thefatlee/lee/projects/eshop/tags/models.py changed, reloading.
+Watching for file changes with StatReloader
+/home/thefatlee/lee/projects/eshop/tags/models.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+/home/thefatlee/lee/projects/eshop/store/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/thefatlee/lee/projects/eshop/store/urls.py changed, reloading.
+Watching for file changes with StatReloader
+/home/thefatlee/lee/projects/eshop/store/urls.py changed, reloading.
+Watching for file changes with StatReloader
+/home/thefatlee/lee/projects/eshop/store/urls.py changed, reloading.
+Watching for file changes with StatReloader
+/home/thefatlee/lee/projects/eshop/store/urls.py changed, reloading.
+Watching for file changes with StatReloader
+/home/thefatlee/lee/projects/eshop/store/urls.py changed, reloading.
+Watching for file changes with StatReloader
+/home/thefatlee/lee/projects/eshop/store/urls.py changed, reloading.
+Watching for file changes with StatReloader
+/home/thefatlee/lee/projects/eshop/store/urls.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+/home/thefatlee/lee/projects/eshop/store/models.py changed, reloading.
+Watching for file changes with StatReloader
+/home/thefatlee/lee/projects/eshop/store/admin.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Not Found: /favicon.ico
+Not Found: /products/
+Internal Server Error: /store/products/
+Traceback (most recent call last):
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/django/db/backends/utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/django/db/backends/sqlite3/base.py", line 423, in execute
+    return Database.Cursor.execute(self, query, params)
+sqlite3.OperationalError: no such table: store_product
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/rest_framework/viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/rest_framework/mixins.py", line 40, in list
+    page = self.paginate_queryset(queryset)
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/rest_framework/generics.py", line 171, in paginate_queryset
+    return self.paginator.paginate_queryset(queryset, self.request, view=self)
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/rest_framework/pagination.py", line 204, in paginate_queryset
+    self.page = paginator.page(page_number)
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/django/core/paginator.py", line 76, in page
+    number = self.validate_number(number)
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/django/core/paginator.py", line 54, in validate_number
+    if number > self.num_pages:
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/django/utils/functional.py", line 48, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/django/core/paginator.py", line 103, in num_pages
+    if self.count == 0 and not self.allow_empty_first_page:
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/django/utils/functional.py", line 48, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/django/core/paginator.py", line 97, in count
+    return c()
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/django/db/models/query.py", line 412, in count
+    return self.query.get_count(using=self.db)
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/django/db/models/sql/query.py", line 528, in get_count
+    number = obj.get_aggregation(using, ['__count'])['__count']
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/django/db/models/sql/query.py", line 513, in get_aggregation
+    result = compiler.execute_sql(SINGLE)
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/django/db/models/sql/compiler.py", line 1175, in execute_sql
+    cursor.execute(sql, params)
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/debug_toolbar/panels/sql/tracking.py", line 252, in execute
+    return self._record(super().execute, sql, params)
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/debug_toolbar/panels/sql/tracking.py", line 177, in _record
+    return method(sql, params)
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/django/db/backends/utils.py", line 98, in execute
+    return super().execute(sql, params)
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/django/db/backends/utils.py", line 66, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/django/db/backends/utils.py", line 75, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/django/db/backends/utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/django/db/utils.py", line 90, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/django/db/backends/utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/django/db/backends/sqlite3/base.py", line 423, in execute
+    return Database.Cursor.execute(self, query, params)
+django.db.utils.OperationalError: no such table: store_product
+Internal Server Error: /store/products/
+Traceback (most recent call last):
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/django/db/backends/utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/django/db/backends/sqlite3/base.py", line 423, in execute
+    return Database.Cursor.execute(self, query, params)
+sqlite3.OperationalError: no such table: store_product
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/rest_framework/viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/rest_framework/mixins.py", line 40, in list
+    page = self.paginate_queryset(queryset)
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/rest_framework/generics.py", line 171, in paginate_queryset
+    return self.paginator.paginate_queryset(queryset, self.request, view=self)
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/rest_framework/pagination.py", line 204, in paginate_queryset
+    self.page = paginator.page(page_number)
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/django/core/paginator.py", line 76, in page
+    number = self.validate_number(number)
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/django/core/paginator.py", line 54, in validate_number
+    if number > self.num_pages:
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/django/utils/functional.py", line 48, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/django/core/paginator.py", line 103, in num_pages
+    if self.count == 0 and not self.allow_empty_first_page:
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/django/utils/functional.py", line 48, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/django/core/paginator.py", line 97, in count
+    return c()
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/django/db/models/query.py", line 412, in count
+    return self.query.get_count(using=self.db)
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/django/db/models/sql/query.py", line 528, in get_count
+    number = obj.get_aggregation(using, ['__count'])['__count']
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/django/db/models/sql/query.py", line 513, in get_aggregation
+    result = compiler.execute_sql(SINGLE)
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/django/db/models/sql/compiler.py", line 1175, in execute_sql
+    cursor.execute(sql, params)
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/debug_toolbar/panels/sql/tracking.py", line 252, in execute
+    return self._record(super().execute, sql, params)
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/debug_toolbar/panels/sql/tracking.py", line 177, in _record
+    return method(sql, params)
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/django/db/backends/utils.py", line 98, in execute
+    return super().execute(sql, params)
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/django/db/backends/utils.py", line 66, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/django/db/backends/utils.py", line 75, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/django/db/backends/utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/django/db/utils.py", line 90, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/django/db/backends/utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/django/db/backends/sqlite3/base.py", line 423, in execute
+    return Database.Cursor.execute(self, query, params)
+django.db.utils.OperationalError: no such table: store_product
+Internal Server Error: /store/products/
+Traceback (most recent call last):
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/django/db/backends/utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/django/db/backends/sqlite3/base.py", line 423, in execute
+    return Database.Cursor.execute(self, query, params)
+sqlite3.OperationalError: no such table: store_product
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/rest_framework/viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/rest_framework/mixins.py", line 40, in list
+    page = self.paginate_queryset(queryset)
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/rest_framework/generics.py", line 171, in paginate_queryset
+    return self.paginator.paginate_queryset(queryset, self.request, view=self)
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/rest_framework/pagination.py", line 204, in paginate_queryset
+    self.page = paginator.page(page_number)
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/django/core/paginator.py", line 76, in page
+    number = self.validate_number(number)
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/django/core/paginator.py", line 54, in validate_number
+    if number > self.num_pages:
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/django/utils/functional.py", line 48, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/django/core/paginator.py", line 103, in num_pages
+    if self.count == 0 and not self.allow_empty_first_page:
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/django/utils/functional.py", line 48, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/django/core/paginator.py", line 97, in count
+    return c()
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/django/db/models/query.py", line 412, in count
+    return self.query.get_count(using=self.db)
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/django/db/models/sql/query.py", line 528, in get_count
+    number = obj.get_aggregation(using, ['__count'])['__count']
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/django/db/models/sql/query.py", line 513, in get_aggregation
+    result = compiler.execute_sql(SINGLE)
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/django/db/models/sql/compiler.py", line 1175, in execute_sql
+    cursor.execute(sql, params)
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/debug_toolbar/panels/sql/tracking.py", line 252, in execute
+    return self._record(super().execute, sql, params)
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/debug_toolbar/panels/sql/tracking.py", line 177, in _record
+    return method(sql, params)
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/django/db/backends/utils.py", line 98, in execute
+    return super().execute(sql, params)
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/django/db/backends/utils.py", line 66, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/django/db/backends/utils.py", line 75, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/django/db/backends/utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/django/db/utils.py", line 90, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/django/db/backends/utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/django/db/backends/sqlite3/base.py", line 423, in execute
+    return Database.Cursor.execute(self, query, params)
+django.db.utils.OperationalError: no such table: store_product
+Not Found: /store/product-list
+Not Found: /store/products-list
+Not Found: /store/products-list/
+Not Found: /store/products/products-list/
+Not Found: /store/products/products-detail/
+Not Found: /store/products/products-detail/1
+Internal Server Error: /store/products/1/
+Traceback (most recent call last):
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/django/db/backends/utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/django/db/backends/sqlite3/base.py", line 423, in execute
+    return Database.Cursor.execute(self, query, params)
+sqlite3.OperationalError: no such table: store_product
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/rest_framework/viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/rest_framework/mixins.py", line 54, in retrieve
+    instance = self.get_object()
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/rest_framework/generics.py", line 96, in get_object
+    obj = get_object_or_404(queryset, **filter_kwargs)
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/rest_framework/generics.py", line 19, in get_object_or_404
+    return _get_object_or_404(queryset, *filter_args, **filter_kwargs)
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/django/shortcuts.py", line 76, in get_object_or_404
+    return queryset.get(*args, **kwargs)
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/django/db/models/query.py", line 431, in get
+    num = len(clone)
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/django/db/models/query.py", line 262, in __len__
+    self._fetch_all()
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/django/db/models/query.py", line 1324, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/django/db/models/query.py", line 51, in __iter__
+    results = compiler.execute_sql(chunked_fetch=self.chunked_fetch, chunk_size=self.chunk_size)
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/django/db/models/sql/compiler.py", line 1175, in execute_sql
+    cursor.execute(sql, params)
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/debug_toolbar/panels/sql/tracking.py", line 252, in execute
+    return self._record(super().execute, sql, params)
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/debug_toolbar/panels/sql/tracking.py", line 177, in _record
+    return method(sql, params)
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/django/db/backends/utils.py", line 98, in execute
+    return super().execute(sql, params)
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/django/db/backends/utils.py", line 66, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/django/db/backends/utils.py", line 75, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/django/db/backends/utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/django/db/utils.py", line 90, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/django/db/backends/utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/django/db/backends/sqlite3/base.py", line 423, in execute
+    return Database.Cursor.execute(self, query, params)
+django.db.utils.OperationalError: no such table: store_product
+Internal Server Error: /store/collections/
+Traceback (most recent call last):
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/django/db/backends/utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/django/db/backends/sqlite3/base.py", line 423, in execute
+    return Database.Cursor.execute(self, query, params)
+sqlite3.OperationalError: no such table: store_collection
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/rest_framework/viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/rest_framework/mixins.py", line 46, in list
+    return Response(serializer.data)
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/rest_framework/serializers.py", line 768, in data
+    ret = super().data
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/rest_framework/serializers.py", line 253, in data
+    self._data = self.to_representation(self.instance)
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/rest_framework/serializers.py", line 686, in to_representation
+    return [
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/django/db/models/query.py", line 280, in __iter__
+    self._fetch_all()
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/django/db/models/query.py", line 1324, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/django/db/models/query.py", line 51, in __iter__
+    results = compiler.execute_sql(chunked_fetch=self.chunked_fetch, chunk_size=self.chunk_size)
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/django/db/models/sql/compiler.py", line 1175, in execute_sql
+    cursor.execute(sql, params)
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/debug_toolbar/panels/sql/tracking.py", line 252, in execute
+    return self._record(super().execute, sql, params)
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/debug_toolbar/panels/sql/tracking.py", line 177, in _record
+    return method(sql, params)
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/django/db/backends/utils.py", line 98, in execute
+    return super().execute(sql, params)
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/django/db/backends/utils.py", line 66, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/django/db/backends/utils.py", line 75, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/django/db/backends/utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/django/db/utils.py", line 90, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/django/db/backends/utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/django/db/backends/sqlite3/base.py", line 423, in execute
+    return Database.Cursor.execute(self, query, params)
+django.db.utils.OperationalError: no such table: store_collection
+Watching for file changes with StatReloader
+Not Found: /stores
+Internal Server Error: /store/products/
+Traceback (most recent call last):
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/django/db/backends/utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/django/db/backends/sqlite3/base.py", line 423, in execute
+    return Database.Cursor.execute(self, query, params)
+sqlite3.OperationalError: no such table: store_product
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/rest_framework/viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/rest_framework/mixins.py", line 40, in list
+    page = self.paginate_queryset(queryset)
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/rest_framework/generics.py", line 171, in paginate_queryset
+    return self.paginator.paginate_queryset(queryset, self.request, view=self)
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/rest_framework/pagination.py", line 204, in paginate_queryset
+    self.page = paginator.page(page_number)
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/django/core/paginator.py", line 76, in page
+    number = self.validate_number(number)
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/django/core/paginator.py", line 54, in validate_number
+    if number > self.num_pages:
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/django/utils/functional.py", line 48, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/django/core/paginator.py", line 103, in num_pages
+    if self.count == 0 and not self.allow_empty_first_page:
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/django/utils/functional.py", line 48, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/django/core/paginator.py", line 97, in count
+    return c()
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/django/db/models/query.py", line 412, in count
+    return self.query.get_count(using=self.db)
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/django/db/models/sql/query.py", line 528, in get_count
+    number = obj.get_aggregation(using, ['__count'])['__count']
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/django/db/models/sql/query.py", line 513, in get_aggregation
+    result = compiler.execute_sql(SINGLE)
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/django/db/models/sql/compiler.py", line 1175, in execute_sql
+    cursor.execute(sql, params)
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/debug_toolbar/panels/sql/tracking.py", line 252, in execute
+    return self._record(super().execute, sql, params)
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/debug_toolbar/panels/sql/tracking.py", line 177, in _record
+    return method(sql, params)
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/django/db/backends/utils.py", line 98, in execute
+    return super().execute(sql, params)
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/django/db/backends/utils.py", line 66, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/django/db/backends/utils.py", line 75, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/django/db/backends/utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/django/db/utils.py", line 90, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/django/db/backends/utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/django/db/backends/sqlite3/base.py", line 423, in execute
+    return Database.Cursor.execute(self, query, params)
+django.db.utils.OperationalError: no such table: store_product
+Not Found: /store/products-list/
+Not Found: /store/products/products-list/
+Not Found: /store/products/products-detail/
+Not Found: /store/products/products-detail/1
+Internal Server Error: /store/products/1/
+Traceback (most recent call last):
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/django/db/backends/utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/django/db/backends/sqlite3/base.py", line 423, in execute
+    return Database.Cursor.execute(self, query, params)
+sqlite3.OperationalError: no such table: store_product
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/rest_framework/viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/rest_framework/mixins.py", line 54, in retrieve
+    instance = self.get_object()
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/rest_framework/generics.py", line 96, in get_object
+    obj = get_object_or_404(queryset, **filter_kwargs)
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/rest_framework/generics.py", line 19, in get_object_or_404
+    return _get_object_or_404(queryset, *filter_args, **filter_kwargs)
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/django/shortcuts.py", line 76, in get_object_or_404
+    return queryset.get(*args, **kwargs)
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/django/db/models/query.py", line 431, in get
+    num = len(clone)
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/django/db/models/query.py", line 262, in __len__
+    self._fetch_all()
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/django/db/models/query.py", line 1324, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/django/db/models/query.py", line 51, in __iter__
+    results = compiler.execute_sql(chunked_fetch=self.chunked_fetch, chunk_size=self.chunk_size)
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/django/db/models/sql/compiler.py", line 1175, in execute_sql
+    cursor.execute(sql, params)
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/debug_toolbar/panels/sql/tracking.py", line 252, in execute
+    return self._record(super().execute, sql, params)
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/debug_toolbar/panels/sql/tracking.py", line 177, in _record
+    return method(sql, params)
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/django/db/backends/utils.py", line 98, in execute
+    return super().execute(sql, params)
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/django/db/backends/utils.py", line 66, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/django/db/backends/utils.py", line 75, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/django/db/backends/utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/django/db/utils.py", line 90, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/django/db/backends/utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/django/db/backends/sqlite3/base.py", line 423, in execute
+    return Database.Cursor.execute(self, query, params)
+django.db.utils.OperationalError: no such table: store_product
+Internal Server Error: /store/products/
+Traceback (most recent call last):
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/django/db/backends/utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/django/db/backends/sqlite3/base.py", line 423, in execute
+    return Database.Cursor.execute(self, query, params)
+sqlite3.OperationalError: no such table: store_product
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/rest_framework/viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/rest_framework/mixins.py", line 40, in list
+    page = self.paginate_queryset(queryset)
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/rest_framework/generics.py", line 171, in paginate_queryset
+    return self.paginator.paginate_queryset(queryset, self.request, view=self)
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/rest_framework/pagination.py", line 204, in paginate_queryset
+    self.page = paginator.page(page_number)
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/django/core/paginator.py", line 76, in page
+    number = self.validate_number(number)
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/django/core/paginator.py", line 54, in validate_number
+    if number > self.num_pages:
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/django/utils/functional.py", line 48, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/django/core/paginator.py", line 103, in num_pages
+    if self.count == 0 and not self.allow_empty_first_page:
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/django/utils/functional.py", line 48, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/django/core/paginator.py", line 97, in count
+    return c()
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/django/db/models/query.py", line 412, in count
+    return self.query.get_count(using=self.db)
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/django/db/models/sql/query.py", line 528, in get_count
+    number = obj.get_aggregation(using, ['__count'])['__count']
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/django/db/models/sql/query.py", line 513, in get_aggregation
+    result = compiler.execute_sql(SINGLE)
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/django/db/models/sql/compiler.py", line 1175, in execute_sql
+    cursor.execute(sql, params)
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/debug_toolbar/panels/sql/tracking.py", line 252, in execute
+    return self._record(super().execute, sql, params)
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/debug_toolbar/panels/sql/tracking.py", line 177, in _record
+    return method(sql, params)
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/django/db/backends/utils.py", line 98, in execute
+    return super().execute(sql, params)
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/django/db/backends/utils.py", line 66, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/django/db/backends/utils.py", line 75, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/django/db/backends/utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/django/db/utils.py", line 90, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/django/db/backends/utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/django/db/backends/sqlite3/base.py", line 423, in execute
+    return Database.Cursor.execute(self, query, params)
+django.db.utils.OperationalError: no such table: store_product
+Not Found: /store/products/products-list/
+Internal Server Error: /store/products/
+Traceback (most recent call last):
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/django/db/backends/utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/django/db/backends/sqlite3/base.py", line 423, in execute
+    return Database.Cursor.execute(self, query, params)
+sqlite3.OperationalError: no such table: store_product
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/rest_framework/viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/rest_framework/mixins.py", line 40, in list
+    page = self.paginate_queryset(queryset)
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/rest_framework/generics.py", line 171, in paginate_queryset
+    return self.paginator.paginate_queryset(queryset, self.request, view=self)
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/rest_framework/pagination.py", line 204, in paginate_queryset
+    self.page = paginator.page(page_number)
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/django/core/paginator.py", line 76, in page
+    number = self.validate_number(number)
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/django/core/paginator.py", line 54, in validate_number
+    if number > self.num_pages:
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/django/utils/functional.py", line 48, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/django/core/paginator.py", line 103, in num_pages
+    if self.count == 0 and not self.allow_empty_first_page:
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/django/utils/functional.py", line 48, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/django/core/paginator.py", line 97, in count
+    return c()
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/django/db/models/query.py", line 412, in count
+    return self.query.get_count(using=self.db)
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/django/db/models/sql/query.py", line 528, in get_count
+    number = obj.get_aggregation(using, ['__count'])['__count']
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/django/db/models/sql/query.py", line 513, in get_aggregation
+    result = compiler.execute_sql(SINGLE)
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/django/db/models/sql/compiler.py", line 1175, in execute_sql
+    cursor.execute(sql, params)
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/debug_toolbar/panels/sql/tracking.py", line 252, in execute
+    return self._record(super().execute, sql, params)
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/debug_toolbar/panels/sql/tracking.py", line 177, in _record
+    return method(sql, params)
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/django/db/backends/utils.py", line 98, in execute
+    return super().execute(sql, params)
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/django/db/backends/utils.py", line 66, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/django/db/backends/utils.py", line 75, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/django/db/backends/utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/django/db/utils.py", line 90, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/django/db/backends/utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/django/db/backends/sqlite3/base.py", line 423, in execute
+    return Database.Cursor.execute(self, query, params)
+django.db.utils.OperationalError: no such table: store_product
+Not Found: /store/products/products-list/
+Internal Server Error: /store/products/
+Traceback (most recent call last):
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/django/db/backends/utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/django/db/backends/sqlite3/base.py", line 423, in execute
+    return Database.Cursor.execute(self, query, params)
+sqlite3.OperationalError: no such table: store_product
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/rest_framework/viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/rest_framework/mixins.py", line 40, in list
+    page = self.paginate_queryset(queryset)
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/rest_framework/generics.py", line 171, in paginate_queryset
+    return self.paginator.paginate_queryset(queryset, self.request, view=self)
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/rest_framework/pagination.py", line 204, in paginate_queryset
+    self.page = paginator.page(page_number)
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/django/core/paginator.py", line 76, in page
+    number = self.validate_number(number)
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/django/core/paginator.py", line 54, in validate_number
+    if number > self.num_pages:
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/django/utils/functional.py", line 48, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/django/core/paginator.py", line 103, in num_pages
+    if self.count == 0 and not self.allow_empty_first_page:
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/django/utils/functional.py", line 48, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/django/core/paginator.py", line 97, in count
+    return c()
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/django/db/models/query.py", line 412, in count
+    return self.query.get_count(using=self.db)
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/django/db/models/sql/query.py", line 528, in get_count
+    number = obj.get_aggregation(using, ['__count'])['__count']
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/django/db/models/sql/query.py", line 513, in get_aggregation
+    result = compiler.execute_sql(SINGLE)
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/django/db/models/sql/compiler.py", line 1175, in execute_sql
+    cursor.execute(sql, params)
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/debug_toolbar/panels/sql/tracking.py", line 252, in execute
+    return self._record(super().execute, sql, params)
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/debug_toolbar/panels/sql/tracking.py", line 177, in _record
+    return method(sql, params)
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/django/db/backends/utils.py", line 98, in execute
+    return super().execute(sql, params)
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/django/db/backends/utils.py", line 66, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/django/db/backends/utils.py", line 75, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/django/db/backends/utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/django/db/utils.py", line 90, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/django/db/backends/utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/django/db/backends/sqlite3/base.py", line 423, in execute
+    return Database.Cursor.execute(self, query, params)
+django.db.utils.OperationalError: no such table: store_product
+Internal Server Error: /store/collections/
+Traceback (most recent call last):
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/django/db/backends/utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/django/db/backends/sqlite3/base.py", line 423, in execute
+    return Database.Cursor.execute(self, query, params)
+sqlite3.OperationalError: no such table: store_collection
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/rest_framework/viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/rest_framework/mixins.py", line 46, in list
+    return Response(serializer.data)
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/rest_framework/serializers.py", line 768, in data
+    ret = super().data
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/rest_framework/serializers.py", line 253, in data
+    self._data = self.to_representation(self.instance)
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/rest_framework/serializers.py", line 686, in to_representation
+    return [
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/django/db/models/query.py", line 280, in __iter__
+    self._fetch_all()
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/django/db/models/query.py", line 1324, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/django/db/models/query.py", line 51, in __iter__
+    results = compiler.execute_sql(chunked_fetch=self.chunked_fetch, chunk_size=self.chunk_size)
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/django/db/models/sql/compiler.py", line 1175, in execute_sql
+    cursor.execute(sql, params)
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/debug_toolbar/panels/sql/tracking.py", line 252, in execute
+    return self._record(super().execute, sql, params)
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/debug_toolbar/panels/sql/tracking.py", line 177, in _record
+    return method(sql, params)
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/django/db/backends/utils.py", line 98, in execute
+    return super().execute(sql, params)
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/django/db/backends/utils.py", line 66, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/django/db/backends/utils.py", line 75, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/django/db/backends/utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/django/db/utils.py", line 90, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/django/db/backends/utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/django/db/backends/sqlite3/base.py", line 423, in execute
+    return Database.Cursor.execute(self, query, params)
+django.db.utils.OperationalError: no such table: store_collection
+Watching for file changes with StatReloader
+Forbidden: /store/customers/
+Forbidden: /store/orders/
+Not Found: /store/products/product-detail/1
+Not Found: /store/products-detail/
+Not Found: /store/1products-detail/
+Not Found: /store/products-list/
+Watching for file changes with StatReloader
+Not Found: /store/products/asda/
+Not Found: /store//从哦啦了从体哦那三
+Not Found: /carts/
+Method Not Allowed: /store/carts/

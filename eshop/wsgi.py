@@ -13,4 +13,4 @@ from django.core.wsgi import get_wsgi_application
 
 os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'eshop.settings')
 
-application = get_wsgi_application()
+application = get_wsgi_application()    # 可用gunicorn作为prod时的服务器，使用gunicorn eshop.wsgi进行启动

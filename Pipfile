@@ -1,14 +1,28 @@
 [[source]]
-url = "https://pypi.douban.com/simple/"
+url = "https://mirrors.aliyun.com/pypi/simple/"
 verify_ssl = true
 name = "pypi"
 
 [packages]
-django = "*"
 djangorestframework = "*"
 django-filter = "*"
+djangorestframework-simplejwt = "*"
+djoser = "*"
+redis = "*"
+celery = "*"
+django-debug-toolbar = "*"
+drf-nested-routers = "*"
+flower = "*"
+django-templated-mail = "*"
+whitenoise = "*"
+gunicorn = "*"
+django = "==3.2.*"
+django-redis = "*"
+pillow = "*"
 
 [dev-packages]
+pytest-django = "*"
+locust = "*"
 
 [requires]
 python_version = "3.8"
