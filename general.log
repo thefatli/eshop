@@ -832,3 +832,321 @@ Not Found: /store/products/asda/
 Not Found: /store//从哦啦了从体哦那三
 Not Found: /carts/
 Method Not Allowed: /store/carts/
+Watching for file changes with StatReloader
+Not Found: /favicon.ico
+Not Found: /products/
+Not Found: /stores
+Not Found: /stores/products/
+/home/thefatlee/lee/projects/eshop/store/models.py changed, reloading.
+Watching for file changes with StatReloader
+/home/thefatlee/lee/projects/eshop/store/models.py changed, reloading.
+Watching for file changes with StatReloader
+Not Found: /store/products/a/
+Watching for file changes with StatReloader
+Not Found: /store/products/a/
+Not Found: /tags/
+Not Found: /stores/
+Watching for file changes with StatReloader
+Not Found: /favicon.ico
+Method Not Allowed: /store/carts/
+Internal Server Error: /store/carts/
+Traceback (most recent call last):
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/rest_framework/viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/rest_framework/mixins.py", line 20, in create
+    headers = self.get_success_headers(serializer.data)
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/rest_framework/serializers.py", line 555, in data
+    ret = super().data
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/rest_framework/serializers.py", line 253, in data
+    self._data = self.to_representation(self.instance)
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/rest_framework/serializers.py", line 522, in to_representation
+    ret[field.field_name] = field.to_representation(attribute)
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/rest_framework/fields.py", line 1838, in to_representation
+    return method(value)
+  File "/home/thefatlee/lee/projects/eshop/store/serializers.py", line 80, in get_total_price
+    return sum([item.quantity * item.unit_price for item in cart.items.all()])
+AttributeError: 'Cart' object has no attribute 'items'
+Not Found: /store/orders/1/
+Method Not Allowed: /store/carts/
+Internal Server Error: /store/carts/
+Traceback (most recent call last):
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/rest_framework/viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/rest_framework/mixins.py", line 20, in create
+    headers = self.get_success_headers(serializer.data)
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/rest_framework/serializers.py", line 555, in data
+    ret = super().data
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/rest_framework/serializers.py", line 253, in data
+    self._data = self.to_representation(self.instance)
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/rest_framework/serializers.py", line 522, in to_representation
+    ret[field.field_name] = field.to_representation(attribute)
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/rest_framework/fields.py", line 1838, in to_representation
+    return method(value)
+  File "/home/thefatlee/lee/projects/eshop/store/serializers.py", line 80, in get_total_price
+    return sum([item.quantity * item.unit_price for item in cart.items.all()])
+AttributeError: 'Cart' object has no attribute 'items'
+Method Not Allowed: /store/carts/
+Internal Server Error: /store/carts/
+Traceback (most recent call last):
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/rest_framework/viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/rest_framework/mixins.py", line 20, in create
+    headers = self.get_success_headers(serializer.data)
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/rest_framework/serializers.py", line 555, in data
+    ret = super().data
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/rest_framework/serializers.py", line 253, in data
+    self._data = self.to_representation(self.instance)
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/rest_framework/serializers.py", line 522, in to_representation
+    ret[field.field_name] = field.to_representation(attribute)
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/rest_framework/fields.py", line 1838, in to_representation
+    return method(value)
+  File "/home/thefatlee/lee/projects/eshop/store/serializers.py", line 80, in get_total_price
+    return sum([item.quantity * item.unit_price for item in cart.items.all()])
+AttributeError: 'Cart' object has no attribute 'items'
+Not Found: /store/carts/1/
+Not Found: /store/carts/1/
+Not Found: /store/carts/1/
+Not Found: /auth/me/
+Not Found: /auth/jwt/
+Method Not Allowed: /auth/jwt/create
+Not Found: /carts/
+Not Found: /stores/
+Not Found: /store/cart/
+Method Not Allowed: /store/carts/
+Method Not Allowed: /store/carts/
+Method Not Allowed: /store/carts/
+Method Not Allowed: /store/carts/
+Internal Server Error: /store/carts/
+Traceback (most recent call last):
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/rest_framework/viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/rest_framework/mixins.py", line 20, in create
+    headers = self.get_success_headers(serializer.data)
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/rest_framework/serializers.py", line 555, in data
+    ret = super().data
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/rest_framework/serializers.py", line 253, in data
+    self._data = self.to_representation(self.instance)
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/rest_framework/serializers.py", line 522, in to_representation
+    ret[field.field_name] = field.to_representation(attribute)
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/rest_framework/fields.py", line 1838, in to_representation
+    return method(value)
+  File "/home/thefatlee/lee/projects/eshop/store/serializers.py", line 80, in get_total_price
+    return sum([item.quantity * item.unit_price for item in cart.items.all()])
+AttributeError: 'Cart' object has no attribute 'items'
+Not Found: /store/carts/1/
+Internal Server Error: /auth/users/me/
+Traceback (most recent call last):
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/rest_framework/viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/djoser/views.py", line 171, in me
+    return self.retrieve(request, *args, **kwargs)
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/rest_framework/mixins.py", line 56, in retrieve
+    return Response(serializer.data)
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/rest_framework/serializers.py", line 555, in data
+    ret = super().data
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/rest_framework/serializers.py", line 253, in data
+    self._data = self.to_representation(self.instance)
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/rest_framework/serializers.py", line 507, in to_representation
+    for field in fields:
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/rest_framework/serializers.py", line 368, in _readable_fields
+    for field in self.fields.values():
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/django/utils/functional.py", line 48, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/rest_framework/serializers.py", line 356, in fields
+    for key, value in self.get_fields().items():
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/rest_framework/serializers.py", line 1032, in get_fields
+    assert hasattr(self.Meta, 'model'), (
+AssertionError: Class UserSerializer missing "Meta.model" attribute
+Internal Server Error: /auth/users/me/
+Traceback (most recent call last):
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/rest_framework/viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/djoser/views.py", line 171, in me
+    return self.retrieve(request, *args, **kwargs)
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/rest_framework/mixins.py", line 56, in retrieve
+    return Response(serializer.data)
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/rest_framework/serializers.py", line 555, in data
+    ret = super().data
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/rest_framework/serializers.py", line 253, in data
+    self._data = self.to_representation(self.instance)
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/rest_framework/serializers.py", line 507, in to_representation
+    for field in fields:
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/rest_framework/serializers.py", line 368, in _readable_fields
+    for field in self.fields.values():
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/django/utils/functional.py", line 48, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/rest_framework/serializers.py", line 356, in fields
+    for key, value in self.get_fields().items():
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/rest_framework/serializers.py", line 1032, in get_fields
+    assert hasattr(self.Meta, 'model'), (
+AssertionError: Class UserSerializer missing "Meta.model" attribute
+Internal Server Error: /auth/users/
+Traceback (most recent call last):
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/django/utils/module_loading.py", line 20, in import_string
+    return getattr(module, class_name)
+AttributeError: module 'core.serializers' has no attribute 'UserCreateSerializers'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/django/core/handlers/base.py", line 204, in _get_response
+    response = response.render()
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/django/template/response.py", line 105, in render
+    self.content = self.rendered_content
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/rest_framework/response.py", line 70, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/rest_framework/renderers.py", line 723, in render
+    context = self.get_context(data, accepted_media_type, renderer_context)
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/rest_framework/renderers.py", line 654, in get_context
+    raw_data_post_form = self.get_raw_data_form(data, view, 'POST', request)
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/rest_framework/renderers.py", line 553, in get_raw_data_form
+    serializer = view.get_serializer()
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/rest_framework/generics.py", line 108, in get_serializer
+    serializer_class = self.get_serializer_class()
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/djoser/views.py", line 94, in get_serializer_class
+    return settings.SERIALIZERS.user_create
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/djoser/conf.py", line 20, in __getattribute__
+    val = import_string(val)
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/django/utils/module_loading.py", line 22, in import_string
+    raise ImportError('Module "%s" does not define a "%s" attribute/class' % (
+ImportError: Module "core.serializers" does not define a "UserCreateSerializers" attribute/class
+Method Not Allowed: /store/carts/
+Not Found: /store/carts/1/
+Method Not Allowed: /store/carts/
+/home/thefatlee/lee/projects/eshop/store/serializers.py changed, reloading.
+Watching for file changes with StatReloader
+/home/thefatlee/lee/projects/eshop/store/serializers.py changed, reloading.
+Watching for file changes with StatReloader
+Method Not Allowed: /store/carts/
+Method Not Allowed: /store/carts/
+Method Not Allowed: /store/carts/
+/home/thefatlee/lee/projects/eshop/store/serializers.py changed, reloading.
+Watching for file changes with StatReloader
+Method Not Allowed: /store/carts/
+Internal Server Error: /store/carts/
+Traceback (most recent call last):
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/rest_framework/viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/rest_framework/mixins.py", line 20, in create
+    headers = self.get_success_headers(serializer.data)
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/rest_framework/serializers.py", line 555, in data
+    ret = super().data
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/rest_framework/serializers.py", line 253, in data
+    self._data = self.to_representation(self.instance)
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/rest_framework/serializers.py", line 522, in to_representation
+    ret[field.field_name] = field.to_representation(attribute)
+  File "/home/thefatlee/.local/share/virtualenvs/eshop-OsVWPWGB/lib/python3.8/site-packages/rest_framework/fields.py", line 1838, in to_representation
+    return method(value)
+  File "/home/thefatlee/lee/projects/eshop/store/serializers.py", line 80, in get_total_price
+    return sum([item.quantity * item.unit_price for item in cart.items.all()])
+AttributeError: 'Cart' object has no attribute 'items'
+Watching for file changes with StatReloader
+Not Found: /favicon.ico
+Not Found: /store/products/aa/
+Not Found: /store/products/search/
+Not Found: /store/products/search/
+Not Found: /store/products/search/
+Not Found: /store/products/search/
+Not Found: /store/products/search/
+Watching for file changes with StatReloader
+Not Found: /favicon.ico

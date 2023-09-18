@@ -1,4 +1,3 @@
-from atexit import register
 from rest_framework_nested import routers
 from . import views
 
