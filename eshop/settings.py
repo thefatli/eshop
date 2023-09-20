@@ -47,7 +47,7 @@ INSTALLED_APPS = [
     'core',
     'tags',
     'likes',
-    'playground'
+    #'playground'
 ]
 
 
