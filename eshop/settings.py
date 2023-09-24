@@ -12,7 +12,7 @@ https://docs.djangoproject.com/en/4.2/ref/settings/
 from datetime import timedelta
 import os
 from pathlib import Path
-from posix import environ
+
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -170,7 +170,7 @@ AUTH_USER_MODEL = 'core.User' #设置专属User
 
 DJOSER = {
     'SERIALIZERS': {
-        'user_create': 'core.serializers.UserCreateSerializers',
+        'user_create': 'core.serializers.UserCreateSerializer',
         'current_user': 'core.serializers.UserSerializer',
     }
 }
@@ -194,7 +194,7 @@ CELERY_BEAT_SCHECHE = {
 # celery -A eshop flower监视celery工作
 #localhost:5555即可见
 LOGGING = {
-    'version': 1,
+    'version': 1,   # 识别配置为 'dictConfig 版本 1' 格式。目前，这是唯一的 dictConfig 格式版本。
     'disable_existing_loggers': False,  # 我们希望其他的loggers仍然能正常运转
     'handlers': {   # console或file……进行处理
     
