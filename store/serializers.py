@@ -162,6 +162,7 @@ class UpdateOrderSerializer(serializers.ModelSerializer):
 class CreateOrderSerializer(serializers.Serializer):    # 需要自己一个个写field, 但是因为需要关联很多类，需要重写function 所以用Serializer
     cart_id = serializers.UUIDField()
 
+    # 这里函数的本质是为了view中的调用
     def validate_cart_id(self, cart_id):
         if not Cart.objects.filter(pk=cart_id).exists():
             raise serializers.ValidationError(
@@ -173,6 +174,7 @@ class CreateOrderSerializer(serializers.Serializer):    # 需要自己一个个�
             )
         return cart_id
     
+    # 这里函数的本质是为了view中的调用
     def save(self, **kwargs):
         with transaction.atomic():  # 在進行一堆SQL工作時，若在操作一半出錯，这个能使操作回滚
             cart_id = self.validated_data['cart_id']

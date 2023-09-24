@@ -149,7 +149,10 @@ class OrderViewSet(ModelViewSet):
         if self.request.method in ['PATCH', 'DELETE']:
             return [IsAdminUser()]
         return [IsAuthenticated()]
-
+    '''
+    视图集中的create()和update()方法主要用于处理API请求并在数据库中创建或更新对象。
+    而序列化器中的create()和update()方法主要用于处理序列化器数据并在数据库中创建或更新对象。
+    '''
     def create(self, request, *args, **kwargs):
         serializer = CreateOrderSerializer( # 因为创建Order是需要有不同的要求的，所以要调用Create...izer
             data=request.data,
